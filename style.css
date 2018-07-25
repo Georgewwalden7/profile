@@ -1,0 +1,140 @@
+body {
+  background-color: #F5FFFA;
+  font-family: serif;
+  color: rgb(10, 10, 10);
+  font-size: 20px;
+  line-height: 20px;
+}
+
+p {
+  margin: 5px;
+}
+
+h3 {
+  font-size: 70px;
+  margin: 40px;
+}
+
+#header-image {
+  height: 700px;
+  width: 1000px;
+  border-radius: 5px;
+}
+
+.header {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 25px;
+  left: 30px;
+  color: white;
+  color: rgb(240, 240, 240);
+}
+
+.top-left {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  font-size: 50px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
+}
+
+.flag {
+  height: 50px;
+  width: 80px;
+}
+
+
+.link {
+  margin: 5px auto;
+}
+
+.links {
+  text-align: center;
+  margin: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  width: 1000px;
+  margin: 20px auto;
+  padding: 5px 0;
+  border-width: 1px;
+  border-color: blue;
+}
+
+a:hover {
+  font-size: 25px;
+}
+
+.champ {
+  width: 900px;
+  margin: 15px auto;
+  position: relative;
+  text-align: center;
+}
+
+.fat-janna:hover {
+  content:url("images/Janna-2.jpg");
+  position: relative;
+  text-align: center;
+  width: 900px;
+  margin: 20 auto;
+  height: 530px;
+}
+
+.fat-malphite:hover {
+  content:url("images/Malphite-2.jpg");
+  position: relative;
+  text-align: center;
+  width: 900px;
+  margin: 20 auto;
+  height: 530px;
+}
+
+.fat-jinx:hover {
+  content:url("images/Jinx-2.jpg");
+  position: relative;
+  text-align: center;
+  width: 900px;
+  margin: 20 auto;
+  height: 530px;
+}
+
+.champ .top-left{
+  top: 10px;
+  left: 10px;
+  color: rgb(250, 250, 250);
+}
+
+#janna {
+  color: black;
+  text-align: left;
+  width: 500px;
+  background-color: rgba(114, 229, 227, .6);
+  border-radius: 5px;
+  padding: 0px 5px;
+  bottom: 10px;
+}
+
+#malphite {
+  color: white;
+  text-align: left;
+  width: 800px;
+  border-radius: 5px;
+  background-color: rgba(10, 10, 10, .6);
+  padding: 0px 5px;
+  bottom: 10px;
+}
+
+.header p {
+  color: white;
+}
